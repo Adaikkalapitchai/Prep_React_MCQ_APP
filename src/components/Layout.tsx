@@ -3,7 +3,7 @@ import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { useStore } from '../context/useStore';
 import { LogOut, LayoutDashboard, Edit, FileText, Bell, ChevronDown } from 'lucide-react';
 import prepRouteLogo from '../assets/PrepRoute.png';
-import profilePic from '../assets/profile_pic.png';
+import profilePic from '../assets/Profile_pic.png';
 
 interface LayoutProps {
   children: React.ReactNode;
